@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura Sportlife | O Estilo das Ruas</title>
+    <style>
+        /* Reset de Estilos Básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
 
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho / Navigation */
+        header {
+            background-color: #1a1a1a;
+            border-bottom: 2px solid #00ff66; /* Verde Neon */
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #00ff66;
+        }
+
+        header p {
+            font-style: italic;
+            color: #a6a6a6;
+            margin-top: 5px;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Seção de Introdução */
+        .intro-section {
+            background: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 5px solid #00ff66;
+        }
+
+        .intro-section h2 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        /* Grid de Pilares do Estilo */
+        .grid-pilares {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #1a1a1a;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #333;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #00ff66;
+        }
+
+        .card h3 {
+            color: #00ff66;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+        }
+
+        /* Bloco de Citação */
+        blockquote {
+            background-color: #262626;
+            border-left: 4px solid #fff;
+            padding: 20px;
+            margin: 40px 0;
+            font-size: 1.2rem;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #333;
+        }
+
+        footer a {
+            color: #00ff66;
+            text-decoration: none;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .intro-section h2 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sportlife Lifestyle</h1>
+        <p>A estética dos atletas do corre do dia a dia</p>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <h2>O que é o Sportlife?</h2>
+            <p>Muito além de apenas vestir roupas esportivas, o movimento <strong>Sportlife</strong> é uma vertente marcante do <em>streetwear</em> urbano. Nascido nas periferias e impulsionado por subculturas musicais como o Funk, o Drill e o Grime, o estilo celebra a identidade, o conforto e a correria diária, transformando artigos de performance esportiva em símbolos de status, orgulho e atitude nas ruas.</p>
+        </section>
+
+        <blockquote>
+            "Sportlife é o estilo criado para os atletas do corre diário."
+        </blockquote>
+
+        <section>
+            <h2 style="text-align: center; margin-bottom: 20px; text-transform: uppercase;">Elementos da Estética</h2>
+            
+            <div class="grid-pilares">
+                <div class="card">
+                    <h3>Camisas de Time</h3>
+                    <p>O maior símbolo de orgulho. Sejam mantos raros, camisas de times europeus ou de várzea, elas deixaram de ser exclusivas dos estádios e dominam os rolês noturnos e o dia a dia.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Corta-Ventos & Tracksuits</h3>
+                    <p>Conjuntos de marcas de performance (como Nike, Adidas, Mizuno e Lacoste) e marcas nacionais do streetwear trazem o caimento perfeito focado no dinamismo e na proteção das ruas.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Cultura Urbana</h3>
+                    <p>Intrinsecamente ligado à música. Os videoclipes e a moda dos MCs e artistas de vertentes urbanas ditaram o ritmo para que o Sportlife ganhasse o topo das tendências no Brasil e no mundo.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Desenvolvido para amantes da cultura urbana. <a href="#">Voltar ao topo</a></p>
+    </footer>
+
+</body>
+</html>
