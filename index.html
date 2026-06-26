@@ -61,6 +61,22 @@
             font-size: 1.8rem;
         }
 
+        /* Container do Vídeo Responsivo */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            background-color: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        .video-container iframe {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+
         /* Grid de Pilares do Estilo */
         .grid-pilares {
             display: grid;
@@ -84,86 +100,4 @@
 
         .card h3 {
             color: #00ff66;
-            margin-bottom: 10px;
-            font-size: 1.4rem;
-        }
-
-        /* Bloco de Citação */
-        blockquote {
-            background-color: #262626;
-            border-left: 4px solid #fff;
-            padding: 20px;
-            margin: 40px 0;
-            font-size: 1.2rem;
-            font-style: italic;
-            text-align: center;
-        }
-
-        /* Rodapé */
-        footer {
-            background-color: #1a1a1a;
-            text-align: center;
-            padding: 20px;
-            margin-top: 60px;
-            font-size: 0.9rem;
-            color: #666;
-            border-top: 1px solid #333;
-        }
-
-        footer a {
-            color: #00ff66;
-            text-decoration: none;
-        }
-
-        /* Responsividade para telas menores */
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.8rem; }
-            .intro-section h2 { font-size: 1.5rem; }
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <h1>Sportlife Lifestyle</h1>
-        <p>A estética dos atletas do corre do dia a dia</p>
-    </header>
-
-    <main>
-        <section class="intro-section">
-            <h2>O que é o Sportlife?</h2>
-            <p>Muito além de apenas vestir roupas esportivas, o movimento <strong>Sportlife</strong> é uma vertente marcante do <em>streetwear</em> urbano. Nascido nas periferias e impulsionado por subculturas musicais como o Funk, o Drill e o Grime, o estilo celebra a identidade, o conforto e a correria diária, transformando artigos de performance esportiva em símbolos de status, orgulho e atitude nas ruas.</p>
-        </section>
-
-        <blockquote>
-            "Sportlife é o estilo criado para os atletas do corre diário."
-        </blockquote>
-
-        <section>
-            <h2 style="text-align: center; margin-bottom: 20px; text-transform: uppercase;">Elementos da Estética</h2>
-            
-            <div class="grid-pilares">
-                <div class="card">
-                    <h3>Camisas de Time</h3>
-                    <p>O maior símbolo de orgulho. Sejam mantos raros, camisas de times europeus ou de várzea, elas deixaram de ser exclusivas dos estádios e dominam os rolês noturnos e o dia a dia.</p>
-                </div>
-
-                <div class="card">
-                    <h3>Corta-Ventos & Tracksuits</h3>
-                    <p>Conjuntos de marcas de performance (como Nike, Adidas, Mizuno e Lacoste) e marcas nacionais do streetwear trazem o caimento perfeito focado no dinamismo e na proteção das ruas.</p>
-                </div>
-
-                <div class="card">
-                    <h3>Cultura Urbana</h3>
-                    <p>Intrinsecamente ligado à música. Os videoclipes e a moda dos MCs e artistas de vertentes urbanas ditaram o ritmo para que o Sportlife ganhasse o topo das tendências no Brasil e no mundo.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Desenvolvido para amantes da cultura urbana. <a href="#">Voltar ao topo</a></p>
-    </footer>
-
-</body>
-</html>
+            margin-bottom
